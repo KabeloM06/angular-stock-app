@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 let stocks: Array<string> = ['AAPL', 'GOOG', 'FB', 'AMZN', 'TWTR'];
 let service: string = 'https://angular2-in-action-api.herokuapp.com';
 
-export interface StocksService {
+export interface StocksInterface {
   symbol: string;
   lastTradePriceOnly: number;
   change: number;
